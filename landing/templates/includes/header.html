@@ -1,0 +1,15 @@
+<header class="header">
+  <nav class="nav">
+    <a href="{% url 'inicio' %}" class="logo">ServiciosPro</a>
+
+    <input type="checkbox" id="menu-toggle">
+    <label for="menu-toggle" class="menu-icon">☰</label>
+
+    <ul class="menu">
+      <li><a href="{% url 'servicios' %}">Servicio</a></li>
+      <li><a href="{% url 'precios' %}">Precios</a></li>
+      <li><a href="{% url 'clientes' %}">Clientes</a></li>
+      <li><a href="{% url 'contacto' %}" class="btn-nav">Contactar</a></li>
+    </ul>
+  </nav>
+</header>

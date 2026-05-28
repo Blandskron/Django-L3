@@ -1,0 +1,47 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<section id="precios" class="section prices-section">
+  <div class="section-title">
+    <span>Planes</span>
+    <h2>Precios simples y claros</h2>
+    <p>Elige el plan que mejor se adapta a tu negocio.</p>
+  </div>
+
+  <div class="pricing">
+    <article class="price-card">
+      <h3>Básico</h3>
+      <p class="price">$99.990</p>
+      <ul>
+        <li>5 gráficas mensuales</li>
+        <li>Publicación en redes</li>
+        <li>Soporte básico</li>
+      </ul>
+      <a href="#contacto" class="btn-price">Elegir plan</a>
+    </article>
+
+    <article class="price-card featured">
+      <span class="badge">Popular</span>
+      <h3>Profesional</h3>
+      <p class="price">$199.990</p>
+      <ul>
+        <li>12 gráficas mensuales</li>
+        <li>Meta Ads básico</li>
+        <li>Reportes mensuales</li>
+      </ul>
+      <a href="#contacto" class="btn-price">Elegir plan</a>
+    </article>
+
+    <article class="price-card">
+      <h3>Empresa</h3>
+      <p class="price">$349.990</p>
+      <ul>
+        <li>Contenido completo</li>
+        <li>Campañas avanzadas</li>
+        <li>Asesoría estratégica</li>
+      </ul>
+      <a href="#contacto" class="btn-price">Elegir plan</a>
+    </article>
+  </div>
+</section>
+{% endblock %}

@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<section id="contacto" class="section contact-section">
+  <div class="contact-info">
+    <span>Contacto</span>
+    <h2>Hablemos de tu proyecto</h2>
+    <p>Completa el formulario y te contactaremos para crear una propuesta a medida.</p>
+  </div>
+
+  <form class="form">
+    <input type="text" placeholder="Nombre completo" required>
+    <input type="email" placeholder="Correo electrónico" required>
+    <input type="tel" placeholder="Teléfono">
+    <select required>
+      <option value="">Servicio de interés</option>
+      <option>Diseño gráfico</option>
+      <option>Marketing digital</option>
+      <option>Automatización</option>
+      <option>Plan completo</option>
+    </select>
+    <textarea placeholder="Cuéntanos qué necesitas" rows="5"></textarea>
+    <button type="submit">Enviar mensaje</button>
+  </form>
+</section>
+{% endblock %}
